@@ -32,6 +32,7 @@ import org.testng.annotations.AfterMethod;
 	 private StringBuffer verificationErrors = new StringBuffer();
   @Test (priority = 0)
   public void CreateResourceName() {
+/*New comment*/
 	  /*Test Case 3:
 	   * Verify that is possible create a resource without name*/
     driver.get(baseUrl + "/#/login");
